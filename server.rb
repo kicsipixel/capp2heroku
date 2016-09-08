@@ -1,4 +1,5 @@
 require 'sinatra'
+configure { set :server, :puma }
 
 set :public_folder, 'public'
 
